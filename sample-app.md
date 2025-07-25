@@ -1,5 +1,5 @@
-#Sample App deployment
-##Deploy.yaml
+# Sample App deployment
+## Deploy.yaml
 ```bash
 apiVersion: apps/v1
 kind: Deployment
@@ -44,7 +44,7 @@ spec:
 kubectl apply -f deploy.yaml 
 ```
 
-##Copy the below file as service.yml
+## Service.yml
 ```bash 
 apiVersion: v1
 kind: Service
