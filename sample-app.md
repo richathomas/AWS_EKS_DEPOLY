@@ -44,7 +44,7 @@ spec:
 kubectl apply -f deploy.yaml 
 ```
 
-## Service.yml
+## Service.yaml
 ```bash 
 apiVersion: v1
 kind: Service
