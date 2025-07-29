@@ -1,6 +1,5 @@
 ## commands to configure IAM OIDC provider
-```bash export cluster_name=demo-cluster 
-```
+```bash export cluster_name=demo-cluster ```
 ```bash oidc_id=$(aws eks describe-cluster --name $cluster_name --query "cluster.identity.oidc.issuer" --output text | cut -d '/' -f 5) 
 ```
 ### Check if there is an IAM OIDC provider configured already
