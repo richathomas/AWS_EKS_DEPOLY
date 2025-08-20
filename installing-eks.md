@@ -1,7 +1,7 @@
 # Install EKS
 Please follow the prerequisites doc before this.
 
-## Install using Fargate
+## Create EKS cluster using Fargate
 ```bash 
 eksctl create cluster --name demo-cluster --region us-east-1 --fargate
 ```
